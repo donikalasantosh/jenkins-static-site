@@ -10,7 +10,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                sh 'scp -r * ubuntu@13.219.81.158:/var/www/html/'
+                sh 'scp -r * ubuntu@54.165.197.171:/var/www/html/'
             }
         }
     }
